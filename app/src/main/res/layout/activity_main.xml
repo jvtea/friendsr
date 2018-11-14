@@ -6,15 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <LinearLayout
+    <GridView
+        android:id="@+id/GridView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal">
-
-        <GridView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:numColumns="3"
-            android:stretchMode="columnWidth" />
-    </LinearLayout>
+        android:numColumns="2"
+        android:stretchMode="columnWidth" />
 </LinearLayout>
