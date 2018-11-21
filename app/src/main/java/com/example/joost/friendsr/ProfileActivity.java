@@ -13,7 +13,6 @@ public class ProfileActivity extends AppCompatActivity {
 
     public Friend retrievedFriend;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,9 +22,9 @@ public class ProfileActivity extends AppCompatActivity {
         retrievedFriend = (Friend) intent.getSerializableExtra("clicked_friend");
 
         // get info from Friend item
-        TextView name = (TextView) findViewById(R.id.Name);
-        TextView bio = (TextView) findViewById(R.id.Bio);
-        ImageView image = (ImageView) findViewById(R.id.Picture);
+        TextView name = findViewById(R.id.Name);
+        TextView bio = findViewById(R.id.Bio);
+        ImageView image = findViewById(R.id.Picture);
 
         // set texts and image
         name.setText(retrievedFriend.getName());

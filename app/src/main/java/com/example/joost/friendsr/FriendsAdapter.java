@@ -27,7 +27,6 @@ public class FriendsAdapter extends ArrayAdapter<Friend> {
     public FriendsAdapter(Context context, int resource, ArrayList<Friend> objects) {
         super(context, resource, objects);
         friends = objects;
-
     }
 
     @Override
@@ -42,10 +41,6 @@ public class FriendsAdapter extends ArrayAdapter<Friend> {
         // load imageview and textview
         TextView text = convertView.findViewById(R.id.Name);
         ImageView image = convertView.findViewById(R.id.Picture);
-
-//        // get name and image ID
-//        String friendName = friend.getName();
-//        int drawableID = friend.getDrawableId();
 
         // set text and image
         text.setText(friend.getName());
