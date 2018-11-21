@@ -19,11 +19,11 @@ public class MainActivity extends AppCompatActivity {
     String[] names =    {"Arya", "Cersei", "Daenerys", "Jaime", "Jon", "Jorah",
                          "Margaery", "Melisandre", "Sansa", "Tyrion"};
 
-    String[] bios =    {"Ik ben Arya!!!!!!!", "Cersei, HAHA.", "Daenerys, lolz.",
-                        "Ik ben Jaime. Incest.", "JON SNOW", "Wie ben ik",
-                        "Margaery, dat lijkt best op margarine. Vet hè? HAHAHA",
-                        "Melisandre is niet echt een naam. Sorry daarvoor.", "Sansa is een naam",
-                        "Ik ben klein maar wel oké."};
+    String[] bios =    {"I am Arya!!!!!!!", "Cersei, HAHA.", "Daenerys, lolz.",
+                        "I am Jaime. Incest.", "JON SNOW", "My name is Jorah. I like murder and sandwiches",
+                        "Margaery, that's a lot like margarine. Cool huh?! HAHAHA",
+                        "Melisandre is not an actual name. Sorry about that", "I am Sansa and I complain.",
+                        "I am small, but alright."};
 
     String[] image_ids = {"arya", "cersei", "daenerys", "jaime", "jon", "jorah",
                          "margaery", "melisandre", "sansa", "tyrion"};
